@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
 	device/softwinner/sugar-standard/ueventd.sun7i.rc:root/ueventd.sun7i.rc \
 	device/softwinner/sugar-standard/init.sun7i.rc:root/init.sun7i.rc \
 	device/softwinner/sugar-standard/init.sun7i.usb.rc:root/init.sun7i.usb.rc \
-	device/softwinner/sugar-standard/needfix.rle:root/needfix.rle \
 	device/softwinner/sugar-standard/camera.cfg:system/etc/camera.cfg \
 	device/softwinner/sugar-standard/media_profiles.xml:system/etc/media_profiles.xml \
 	frameworks/native/data/etc/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml
@@ -42,11 +41,11 @@ PRODUCT_PACKAGES += \
     Bluetooth \
 #	TSCalibration2
 #support rmvb
-PRODUCT_COPY_FILES += \
-       device/softwinner/sugar-standard/librmvb/libdemux_rmvb.so:system/lib/libdemux_rmvb.so \
-       device/softwinner/sugar-standard/librmvb/librm.so:system/lib/librm.so \
-       device/softwinner/sugar-standard/librmvb/libswa1.so:system/lib/libswa1.so \
-       device/softwinner/sugar-standard/librmvb/libswa2.so:system/lib/libswa2.so
+#PRODUCT_COPY_FILES += \
+#       device/softwinner/sugar-standard/librmvb/libdemux_rmvb.so:system/lib/libdemux_rmvb.so \
+#       device/softwinner/sugar-standard/librmvb/librm.so:system/lib/librm.so \
+#       device/softwinner/sugar-standard/librmvb/libswa1.so:system/lib/libswa1.so \
+#       device/softwinner/sugar-standard/librmvb/libswa2.so:system/lib/libswa2.so
 
 # wifi & bt config file
 PRODUCT_COPY_FILES += \
